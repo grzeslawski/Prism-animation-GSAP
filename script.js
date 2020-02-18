@@ -21,8 +21,7 @@ tl.from(text, 0.5, { ease: "elastic.out(1, 0.8)", x: -1500 })
     0.3,
     {
       ease: "sine.out",
-      scaleX: 0,
-      scaleY: 0.5,
+      scale: 0,
       transformOrigin: "10% 10%"
     },
     "light"
@@ -35,8 +34,7 @@ tl.from(text, 0.5, { ease: "elastic.out(1, 0.8)", x: -1500 })
     0.5,
     {
       ease: "power1.out",
-      scaleX: 0,
-      scaleY: 0.2,
+      scale: 0,
       transformOrigin: "00% 10%",
       delay: 0.01
     },
